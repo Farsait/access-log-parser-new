@@ -3,9 +3,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.Scanner;
 
-
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         int count = 0;
         int totalLines = 0;
         int maxLength = Integer.MIN_VALUE;
@@ -53,7 +52,8 @@ public class Main {
                 catch (Exception ex) {
                     ex.printStackTrace();
                 }
-                if (maxLength > 1024) {throw new RuntimeException("Есть строка длиннее 1024 символов");}
+                if (maxLength > 1024) {throw new CustomRuntimeException("Есть строка длиннее 1024 символов");}
+
             }
             System.out.println("Самая длинная строка (Кол-во символов): " + maxLength);
             System.out.println("Самая короткая строка (Кол-во символов): " + minLength);

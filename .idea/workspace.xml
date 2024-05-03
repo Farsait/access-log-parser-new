@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e77af8b-881c-4c53-9863-6b250db50cc2" name="Changes" comment="9.1 CustomRuntimeException">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/parser/file/Main.java" afterDir="false" />
+    <list default="true" id="4e77af8b-881c-4c53-9863-6b250db50cc2" name="Changes" comment="9.2 Parsing file">
+      <change afterPath="$PROJECT_DIR$/src/ru/parser/file/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/parser/file/UserAgent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CustomRuntimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/parser/file/CustomRuntimeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/parser/file/FileAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/parser/file/FileAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/parser/file/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/parser/file/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +55,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JProject/access-log-parser-master-1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -147,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711997358762</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="9.2 Parsing file">
+      <option name="closed" value="true" />
+      <created>1712910449510</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712910449510</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +175,7 @@
     <MESSAGE value="New commit" />
     <MESSAGE value="9.1 Exception" />
     <MESSAGE value="9.1 CustomRuntimeException" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.1 CustomRuntimeException" />
+    <MESSAGE value="9.2 Parsing file" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.2 Parsing file" />
   </component>
 </project>
